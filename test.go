@@ -29,5 +29,5 @@ func main() {
 		fmt.Scan(&t)
 		FullTime = FullTime + t
 	}
-	fmt.Println("Предполагаемое среднее время запуска теста - ", FullTime/N)
+	fmt.Println("Предполагаемое среднее время запуска теста - ", float64(FullTime)/float64(N))
 }
